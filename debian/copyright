@@ -1,8 +1,8 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: rtl8723ds-bt
-Upstream-Contact: Simon Stürz <simon.stuerz@guh.io>
-Download: https://github.com/guh/rtl8723ds_bt
-Source: https://github.com/guh/rtl8723ds_bt.git
+Upstream-Name: rtl8723bs-bt
+Upstream-Contact: Bahri Meric Canli <bahri@bahri.info>
+Download: https://github.com/bmericc/rtl8723bs_bt
+Source: https://github.com/bmericc/rtl8723bs_bt.git
 
 License: GPL-2+
  On Debian systems, the complete text of the GNU General
@@ -10,11 +10,11 @@ License: GPL-2+
 
 Files: debian/*
 License: GPL-2+
-Copyright: 2017, Simon Stürz <simon.stuerz@guh.io>
+Copyright: 2017, Bahri Meric Canli <bahri@bahri.info>
 
 Files: scripts/*
 License: GPL-2+
-Copyright: 2017, Simon Stürz <simon.stuerz@guh.io>
+Copyright: 2017, Larry Finger <Larry.Finger@lwfinger.net>
 
 Files: hciattach*
 License: GPL-2+
