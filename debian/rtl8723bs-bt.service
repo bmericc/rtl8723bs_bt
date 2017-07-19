@@ -1,5 +1,5 @@
 [Unit]
-Description=Realtek rtl8723ds bluetooth hciattach
+Description=Realtek rtl8723bs bluetooth hciattach
 
 [Service]
 ExecStart=/sbin/start-rtl-bluetooth
