@@ -1,0 +1,8 @@
+[Unit]
+Description=Realtek rtl8723ds bluetooth hciattach
+
+[Service]
+ExecStart=/sbin/start-rtl-bluetooth
+
+[Install]
+WantedBy=multi-user.target
