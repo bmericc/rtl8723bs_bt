@@ -32,5 +32,5 @@ then
 	mkdir -p /lib/firmware/rtl_bt/
 	cp rtl8723bs_bt_* /lib/firmware/rtl_bt/.
 fi
-./rtk_hciattach -n -s 115200 $TTY rtk_h5 > hciattach.txt 2>&1 &
+/sbin/rtk_hciattach -n -s 115200 $TTY rtk_h5 > hciattach.txt 2>&1 &
 
